@@ -4,6 +4,10 @@ def add(a, b):
 def minus(a, b):
     return a-b
 
-if __name__== "__main__":
+def main():
     print("Welcome to Python")
     print("This is just a test")
+    return "OK"
+    
+if __name__== "__main__":
+    main()
