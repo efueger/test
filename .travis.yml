@@ -25,5 +25,8 @@ before_script:
 script: pytest
 
 after_sucess:
-  - coveralls
+  - echo "Working..."
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+  - echo "CC Done..."
+  - coveralls
+  - echo "Coveralls Done..."
