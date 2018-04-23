@@ -1,7 +1,7 @@
 This repository is created just for testing purposes
 
 |  |ci-status| |pyversions| |djversions|
-|  |format| |versions| |status|
+|  |format| |status| |license|
 
 Description
 
