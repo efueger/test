@@ -26,5 +26,5 @@ script: pytest
 
 after_sucess:
   # - coverage app.py
+  - coveralls
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-  # - coveralls
