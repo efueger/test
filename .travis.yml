@@ -12,9 +12,9 @@ python:
   # - "pypy2.7"
   # - "pypy3.5"
 # command to install dependencies
-# install:
-#   - pip install .
-#   - pip install -r requirements.txt
+install:
+  # - pip install -r requirements_common.txt
+  - pip install coverage
 # command to run tests
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
